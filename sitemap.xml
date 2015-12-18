@@ -2,7 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://pyweek.github.io/2015/12/17/hello-world.html</loc>
+    <loc>http://pyweek.github.io/news/index.html</loc>
+    <lastmod>2015-12-18T06:28:30.604Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pyweek.github.io/news/2015/12/18/third.html</loc>
+    <lastmod>2015-12-18T04:09:48.975Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pyweek.github.io/uncategorized/2015/12/18/two.html</loc>
+    <lastmod>2015-12-18T03:01:10.695Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pyweek.github.io/uncategorized/2015/12/17/hello-world.html</loc>
     <lastmod>2015-12-17T10:16:37.764Z</lastmod>
   </url>
   
