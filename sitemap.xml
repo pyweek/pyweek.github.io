@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://pyweek.github.io/challenges/2015/12/20/c2.html</loc>
+    <lastmod>2015-12-20T08:06:17.493Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pyweek.github.io/challenges/2015/12/20/c1.html</loc>
+    <lastmod>2015-12-20T08:05:06.112Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://pyweek.github.io/challenges/index.html</loc>
     <lastmod>2015-12-19T00:04:05.716Z</lastmod>
   </url>

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[每周实战一题，每周前进一步]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://pyweek.github.io/"/>
-  <updated>2015-12-18T04:09:48.975Z</updated>
+  <updated>2015-12-20T08:06:17.493Z</updated>
   <id>http://pyweek.github.io/</id>
   
   <author>
@@ -13,6 +13,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[第二个挑战]]></title>
+    <link href="http://pyweek.github.io/challenges/2015/12/20/c2.html"/>
+    <id>http://pyweek.github.io/challenges/2015/12/20/c2.html</id>
+    <published>2015-12-20T08:05:47.000Z</published>
+    <updated>2015-12-20T08:06:17.493Z</updated>
+    <content type="html"><![CDATA[<p>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内容！<br>第二个挑战的内]]>
+    </summary>
+    
+      <category term="challenges" scheme="http://pyweek.github.io/categories/challenges/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[第一个挑战]]></title>
+    <link href="http://pyweek.github.io/challenges/2015/12/20/c1.html"/>
+    <id>http://pyweek.github.io/challenges/2015/12/20/c1.html</id>
+    <published>2015-12-20T08:04:03.000Z</published>
+    <updated>2015-12-20T08:05:06.112Z</updated>
+    <content type="html"><![CDATA[<p>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！<br>第一个挑战内容！</p>
+]]>
+    </summary>
+    
+      <category term="challenges" scheme="http://pyweek.github.io/categories/challenges/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[第3篇文章]]></title>
