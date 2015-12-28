@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://pyweek.github.io/help/index.html</loc>
-    <lastmod>2015-12-22T13:44:24.448Z</lastmod>
+    <loc>http://pyweek.github.io/challenges/2015/12/28/24-point-game.html</loc>
+    <lastmod>2015-12-28T09:31:28.233Z</lastmod>
   </url>
   
   <url>
     <loc>http://pyweek.github.io/challenges/2015/12/20/handle-100-million-qq-numbers.html</loc>
-    <lastmod>2015-12-22T07:49:00.549Z</lastmod>
+    <lastmod>2015-12-28T08:28:30.021Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pyweek.github.io/help/index.html</loc>
+    <lastmod>2015-12-28T08:27:36.760Z</lastmod>
   </url>
   
   <url>

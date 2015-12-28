@@ -4,7 +4,7 @@
   <subtitle><![CDATA[每周实战一题，每周前进一步]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://pyweek.github.io/"/>
-  <updated>2015-12-22T07:49:00.549Z</updated>
+  <updated>2015-12-28T09:31:28.233Z</updated>
   <id>http://pyweek.github.io/</id>
   
   <author>
@@ -15,11 +15,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[24点]]></title>
+    <link href="http://pyweek.github.io/challenges/2015/12/28/24-point-game.html"/>
+    <id>http://pyweek.github.io/challenges/2015/12/28/24-point-game.html</id>
+    <published>2015-12-28T08:25:14.000Z</published>
+    <updated>2015-12-28T09:31:28.233Z</updated>
+    <content type="html"><![CDATA[<h3 id="u9898_u76EE_u63CF_u8FF0"><a href="#u9898_u76EE_u63CF_u8FF0" class="headerlink" title="题目描述"></a>题目描述</h3><p>24点是一种益智游戏，任意给出4张扑克牌（不含大小王，J Q K A所代表的值分别为11, 12, 13, 1），可以有重复的数字。对这4张牌所代表的值进行加减乘除运算，不可改变数字的位置，但可使用括号改变运算顺序，最终使得表达式的值为24 。</p>
+<p>在answer.py中实现下列函数：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">twenty_four_calc</span><span class="params">(filename=<span class="string">"24_data.txt"</span>)</span>:</span></span><br><span class="line">    <span class="string">"""</span><br><span class="line">    :param filename: 文件名，当前文件夹下包含待计算的扑克牌符号的文件，</span><br><span class="line">                     每行一组(用于评比的文件可能多达数百行)，以空格分割，</span><br><span class="line">                     具体格式如下：</span><br><span class="line">                     A A 3 4</span><br><span class="line">                     Q J K 2</span><br><span class="line">                     10 9 5 A</span><br><span class="line">                     ...</span><br><span class="line">    :return : 此函数无返回结果，但需要将所有的解输出至当前文件夹下的</span><br><span class="line">              "24_answer_&lt;yourname&gt;.txt" 中，将&lt;yourname&gt;替换为你的</span><br><span class="line">              github用户名，文件格式如下：</span><br><span class="line">              ===A A A A</span><br><span class="line">              Impossible</span><br><span class="line"></span><br><span class="line">              ===10 9 5 A</span><br><span class="line">              ((10+9)+5)/1</span><br><span class="line">              10+((9+5)/1)</span><br><span class="line">              (10+(9+5))/1</span><br><span class="line">              10+(9+(5/1))</span><br><span class="line">              (10+9)+(5/1)</span><br><span class="line">              ((10+9)+5)*1</span><br><span class="line">              10+((9+5)*1)</span><br><span class="line">              (10+(9+5))*1</span><br><span class="line">              10+(9+(5*1))</span><br><span class="line">              (10+9)+(5*1)</span><br><span class="line"></span><br><span class="line">              ===A A 3 4</span><br><span class="line">              ...(省略)</span><br><span class="line">    """</span></span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="u9898_u76EE_u8981_u6C42"><a href="#u9898_u76EE_u8981_u6C42" class="headerlink" title="题目要求"></a>题目要求</h3><ol>
+<li>所有输入输出均以UTF8编码形式处理；</li>
+<li>只允许使用CPython标准库和内置函数提供的方法、模块；</li>
+<li>必须能运行出结果；</li>
+<li>Python 版本仅限于 2.7 或 3.4+, 小版本号不限；</li>
+<li>必须符合PEP8编码风格, 会进行编码风格检查.</li>
+</ol>
+<h3 id="u8BC4_u6BD4_u89C4_u5219"><a href="#u8BC4_u6BD4_u89C4_u5219" class="headerlink" title="评比规则"></a>评比规则</h3><p>  能完全正确计算出所有解，并输出答案，用时最少。其他基本规则见“帮助”页面。</p>
+<h3 id="u63D0_u4EA4_u7B54_u6848"><a href="#u63D0_u4EA4_u7B54_u6848" class="headerlink" title="提交答案"></a>提交答案</h3><p>   参考 “帮助” 页面</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="u9898_u76EE_u63CF_u8FF0"><a href="#u9898_u76EE_u63CF_u8FF0" class="headerlink" title="题目描述"></a>题目描述</h3><p>24点是一种益智游戏，任意给出4张扑克牌（不含大]]>
+    </summary>
+    
+      <category term="question" scheme="http://pyweek.github.io/tags/question/"/>
+    
+      <category term="challenges" scheme="http://pyweek.github.io/categories/challenges/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[处理1亿个QQ号]]></title>
     <link href="http://pyweek.github.io/challenges/2015/12/20/handle-100-million-qq-numbers.html"/>
     <id>http://pyweek.github.io/challenges/2015/12/20/handle-100-million-qq-numbers.html</id>
     <published>2015-12-20T09:49:22.000Z</published>
-    <updated>2015-12-22T07:49:00.549Z</updated>
+    <updated>2015-12-28T08:28:30.021Z</updated>
     <content type="html"><![CDATA[<h3 id="u9898_u76EE_u63CF_u8FF0"><a href="#u9898_u76EE_u63CF_u8FF0" class="headerlink" title="题目描述"></a>题目描述</h3><ol>
 <li><p>请实现以下用于生成QQ号的函数。生成 1 亿个<strong>乱序排列</strong>且不重复的QQ号至 a.txt , 再生成 100 万个至 b.txt。注意：每个被选号码应是<strong>等概率随机</strong>抽取的。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">gen_qq_numbers</span><span class="params">(m, n, k, output)</span>:</span></span><br><span class="line">   <span class="string">"""</span><br><span class="line">   用于生成QQ号的函数, 即[m, n]区间内k个不重复的等概率随机数。</span><br><span class="line">   :param m: int, 所生成的QQ号须大于正整数 m, 大于等于10000</span><br><span class="line">   :param n: int, 所生成的QQ号须小于正整数 n, 小于等于999999999</span><br><span class="line">   :param k: int, 一共生成 k 个QQ号</span><br><span class="line">   :param output: string, 文件名，生成结果保存至output中， 每行一个QQ号</span><br><span class="line">   """</span></span><br><span class="line">   <span class="comment"># TODO</span></span><br><span class="line">   <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
@@ -34,16 +62,7 @@
 <li>Python 版本仅限于 2.7 或 3.4+, 小版本号不限；</li>
 <li>必须符合PEP8编码风格, 会进行编码风格检查.</li>
 </ol>
-<h3 id="u8BC4_u6BD4_u89C4_u5219"><a href="#u8BC4_u6BD4_u89C4_u5219" class="headerlink" title="评比规则"></a>评比规则</h3><p>  生成一次1亿个QQ号，交并差运算各执行一次，就算一遍完整的运行， 三遍完整的运行时间平均值用于评比。</p>
-<ol>
-<li>首选运行时间更少的；</li>
-<li>若时间相差很小， 选代码行数(不算注释)更少的(我们认为符合编码规范的同时，更少的代码行在相当程度上意味着更简洁灵巧的解题思路)；</li>
-<li>若代码行数相差很小， 选使用较新Python版本的；</li>
-<li>以上两点相差很小的定量是：相比之下，更少的那个答案的10% ，如用时80s，那另一个必须要在88s之内完成，才进行下一项比拼;</li>
-<li>同样的版本号下，选择使用了语言新特性的；</li>
-<li>更倾向于新版本与新特性是为了鼓励程序猿与时俱进；</li>
-<li>评比完成后，会在“参考答案”中写明和第二名相比，为何选择它作为第一名。</li>
-</ol>
+<h3 id="u8BC4_u6BD4_u89C4_u5219"><a href="#u8BC4_u6BD4_u89C4_u5219" class="headerlink" title="评比规则"></a>评比规则</h3><p>  生成一次1亿个QQ号，交并差运算各执行一次，就算一遍完整的运行， 三遍完整的运行时间平均值用于评比。基本规则请参考“帮助”页面中的“评比规则”。</p>
 <h3 id="u63D0_u4EA4_u7B54_u6848"><a href="#u63D0_u4EA4_u7B54_u6848" class="headerlink" title="提交答案"></a>提交答案</h3><p>   参考 “帮助” 页面</p>
 ]]></content>
     <summary type="html">
